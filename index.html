@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1.0"
+		/>
+		<title>JS</title>
+		<link
+			rel="stylesheet"
+			href="assets/css/style.min.css"
+		/>
+	</head>
+
+	<body>
+		<div class="wrapper">
+			<main class="page">
+				<form name="formOne">
+					<input
+						type="text"
+						name="input1"
+					/>
+					<input
+						type="text"
+						name="input2"
+					/>
+					<button
+						class="button__form"
+						name="btn"
+					>
+						Swap
+					</button>
+				</form>
+
+				<form
+					name="formTwo"
+					class="form__two"
+				>
+					<input
+						type="text"
+						name="input"
+					/>
+					<button name="lock">Lock</button>
+					<button name="unlock">Unlock</button>
+				</form>
+
+				<form
+					name="formThree"
+					class="form__three"
+				>
+					<input
+						type="text"
+						name="input"
+					/>
+					<a
+						href="https://www.youtube.com/watch?v=OtJkXuqyjkk&list=PLRD56Ql8zouzzCQWIwysCdq8UvC6LmCYh&index=16"
+						>Click here</a
+					>
+				</form>
+
+				<form
+					name="formFour"
+					class="form__four"
+				>
+					<textarea name="textarea"></textarea>
+					<button name="btn">Статистика</button>
+				</form>
+				<div class="statistics"></div>
+
+				<form name="formFive" class="form__five">
+					<input type="file" name="file" id="file" class="input__file">
+					<label for="file">Select file</label>
+					<button name="btn" class="upload__image">Upload image</button>
+				</form>
+				<div class="image"></div>
+
+
+				<div class="to-do__wrap">
+					<h1>To-do list</h1>
+					<form
+						class="to-do__form"
+						name="form"
+					>
+						<input
+							class="to-do__input"
+							type="text"
+							placeholder="Add your text"
+							name="addText"
+						/>
+						<button class="to-do__button">Add</button>
+					</form>
+					<ul class="to-do__list"></ul>
+				</div>
+			</main>
+		</div>
+
+		<script src="./JS/script.js"></script>
+	</body>
+</html>
